@@ -2,13 +2,13 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 
 import {
-  darkTheme,
+  // darkTheme,
   lightTheme,
 } from './theme/theme';
 import HomeNavigation from './navigations/HomeNavigation';
 
 const App = () => {
-  const MyTheme = darkTheme;
+  const MyTheme = lightTheme;
   return (
     <NavigationContainer theme={MyTheme}>
       <HomeNavigation />

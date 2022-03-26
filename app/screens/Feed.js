@@ -50,7 +50,7 @@ const Feed = () => {
       <ScrollView style={styles.dataList} contentContainerStyle={{alignItems:'center'}}>
         {
           loading
-          ? <ActivityIndicator color={colors.primary}/>
+          ? <ActivityIndicator color={colors.darkText}/>
           : (localData.length > 0 ? (
             localData && localData?.map((item) => <DataCard value={item}/>)
           ) : (
