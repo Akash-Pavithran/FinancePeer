@@ -78,7 +78,7 @@ const useStyles = () => {
   const { colors } = useTheme();
   return StyleSheet.create({
     mainContainer: {
-      backgroundColor: colors.white,
+      backgroundColor: 'transparent',
       width: '100%',
       borderColor: 'transparent',
       borderRadius: 10,
@@ -100,9 +100,9 @@ const useStyles = () => {
         height: 6,
         borderRadius: 5,
         marginHorizontal: -10,
-        borderColor: colors.text,
+        borderColor: colors.white,
         borderWidth: 2,
-        backgroundColor: colors.text,
+        backgroundColor: colors.white,
       },
     loaderContainer: {
         position: 'absolute',

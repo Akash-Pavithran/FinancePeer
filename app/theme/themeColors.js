@@ -1,11 +1,13 @@
 import {DarkTheme, DefaultTheme} from '@react-navigation/native';
 
+// darkText, lightText colors are with respect to light theme
 export const lightThemeColors = {
   ...DefaultTheme.colors,
   primary: '#374ea1',
   background: '#FFF',
   card: 'grey',
-  text: 'white',
+  darkText: 'black',
+  lightText: 'white',
   white: 'white',
   border: 'blue',
   tabActive: 'cyan',
@@ -15,10 +17,11 @@ export const lightThemeColors = {
 
 export const darkThemeColors = {
   ...DarkTheme.colors,
-  primary: '#374ea1',
+  primary: '#010917',
   background: '#010917',
   card: 'grey',
-  text: 'white',
+  darkText: 'white',
+  lightText: 'black',
   white: 'black',
   border: 'blue',
   tabActive: 'cyan',

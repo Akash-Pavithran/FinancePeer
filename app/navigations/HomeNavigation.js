@@ -24,6 +24,7 @@ const HomeNavigation = () => {
             initialRouteName="Home"
             screenOptions={{
                 tabBarShowLabel: false,
+                headerTintColor:'white',
                 headerStyle: {
                     backgroundColor: colors.primary,
                 },
