@@ -55,7 +55,7 @@ const Feed = () => {
             localData && localData?.map((item) => <DataCard value={item}/>)
           ) : (
             <View style={{paddingTop:20}}>
-              <Text>Nothing to display here...</Text>
+              <Text style={styles.subTitle}>Nothing to display here...</Text>
             </View>
           ))
         }
@@ -77,11 +77,14 @@ const useStyles = () => {
   title: {
     fontSize: 20,
     fontWeight:'900',
+    color: colors.darkText,
   },
   subTitle: {
     fontSize: 15,
     fontWeight:'500',
     top: -5,
+    color: colors.darkText,
+
   },
   button: {
     flexDirection: 'row',
@@ -99,7 +102,7 @@ const useStyles = () => {
     borderRadius: 10,
     padding: 20,
     marginVertical:5,
-    backgroundColor: colors.primary,
+    backgroundColor: colors.card,
   },
 });};
 
